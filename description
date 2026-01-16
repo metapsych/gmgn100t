@@ -1,0 +1,21 @@
+# GMGN.ai Top Traders Scraper
+
+A Python script to extract ALL 100+ Top Traders from GMGN.ai using authenticated API calls.
+
+## Quick Start
+
+```bash
+git clone https://github.com/metapsych/gmgn100t.git
+cd gmgn100t
+pip install -r requirements.txt
+playwright install chromium
+python3 scrape_all_traders.py
+```
+
+## Features
+
+- ✅ Extracts ALL 100+ traders (not just visible ones)
+- ✅ Uses authenticated browser session
+- ✅ Complete data extraction with wallet links
+- ✅ Visible browser for monitoring
+- ✅ Robust error handling
